@@ -19,7 +19,7 @@ MCP: AI가 도구를 사용할 수 있도록 하는 표준 연결 언어 <br />
 git init: .git 폴더 생성 <br />
 git add .: 폴더 안의 파일 스테이지에 올림 <br />
 git commit -m"패치 설명": local repository에 저장 <br />
-git push -u origin main: remote repository에 저장 <br />
+git push origin main: remote repository에 저장 <br />
 
 3일차 <br />
 antigravity와 같은 agent가 커밋, 푸쉬와 같은 명령어를 사용할 수 있게 하기 위해 github api key를 넣고 mcp를 명령어 실행 <br />
