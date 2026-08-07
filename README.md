@@ -37,3 +37,14 @@ Pydantic은 JSON 직렬화를 제공 <br />
 grill-me는 안티그래비티 2.0에 속한 기술로 에이전트가 개발자에게 어떤식으로 프로그램을 진행할지 질문을 하는 방식인 기술이다. <br />
 에이전트 이용 시 요구사항이 자세할수록 수정할 때 드는 토큰을 절약할 수 있다. <br />
 ollama 설치하여 오프라인 상에서도 미리 받은 모델을 이용 가능 <br />
+
+5일차 <br />
+SSR(Server Side Rendering): 백엔드에서 Html 모두 작성해서 응답을 제공 받음 <br />
+CSR(Client Side Rendering): 백엔드에서 데이터(json, xml)만 응답으로 제공 받음 <br />
+웹 페이지에서 실시간 반영 되어야 하는 정보는 json 파일로 따로 제공받아서 모든 페이지 정보를 새로고침하는 소요를 줄인다. 부분 업데이트 진행 <br />
+Reactjs - CSR <br />
+Nextjs - CSR + SSR <br />
+웹스크래핑 - requests, 풀링 or 파싱 - Beautifulsoup4, 둘 다 - Selenium, 데이터 분석 - Pandas, 시각화 - Seaborn, python코드와 DB 연결 데이터 저장 조회 - pymysql, <br />
+파이썬에서 외부 데이터 키를 사용할 때 key가 없을 수 있기에 get을 이용하여 없으면 기본값으로 설정하게 한다. # my_dict.get('name', 'Python') <br />
+CSS Selector tag 찾기 <br />
+"abc" : abc 다 가져오기, "#abc" : id 가져오기, ".abc" class : 가져오기 <br />
