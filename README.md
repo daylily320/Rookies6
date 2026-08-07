@@ -48,3 +48,5 @@ Nextjs - CSR + SSR <br />
 파이썬에서 외부 데이터 키를 사용할 때 key가 없을 수 있기에 get을 이용하여 없으면 기본값으로 설정하게 한다. # my_dict.get('name', 'Python') <br />
 CSS Selector tag 찾기 <br />
 "abc" : abc 다 가져오기, "#abc" : id 가져오기, ".abc" class : 가져오기 <br />
+Tag : 모든 tag. Tag1 Tag2 : tag1, tag2 가져오기, Tag1 > Tag2 : tag1의 자손인 tag2 <br />
+tag[attr]  /미완 주말에 다시 작성하기 tag 파트 포함된 단어, 똑같은 단어에 따른 명령어 기록해두기
