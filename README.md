@@ -49,4 +49,5 @@ Nextjs - CSR + SSR <br />
 CSS Selector tag 찾기 <br />
 "abc" : abc 다 가져오기, "#abc" : id 가져오기, ".abc" class : 가져오기 <br />
 Tag : 모든 tag. Tag1 Tag2 : tag1, tag2 가져오기, Tag1 > Tag2 : tag1의 자손인 tag2 <br />
-tag[attr]  /미완 주말에 다시 작성하기 tag 파트 포함된 단어, 똑같은 단어에 따른 명령어 기록해두기
+tag[attr]  <br />
+//미완 주말에 다시 작성하기 tag 파트 포함된 단어, 똑같은 단어에 따른 명령어 기록해두기<br />
