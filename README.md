@@ -63,4 +63,7 @@ tag.tag_class : 클래스명에 tag_class가 포함된 모든 tag <br />
 tag#tag_id.tag_cls1.tag_cls2 : id가 tag_id이고 클래스명에 tag_cls1와 tag_cls2가 포함된 tag <br />
 tag.tag_tag_cls1.tag_cls2 : 클래스명에 tag_cls1와 tag_cls2가 포홤된 tag <br />
 
-###6일차 <br />
+**6일차**<br />
+웹툰 이미지 가져올 때 reference에서 사이트 주소를 넣어 headers를 지정, img_url을 넣어줘서 맵핑 <br />
+파이썬은 배열에 다른 type 삽입 가능 <br /> 
+명령어 반복문 조건문 순서를 통해 코드를 줄여서 적을 수 있다. ex) **[i*i for i in range(10) if i % 2 == 0]** <br /> 
