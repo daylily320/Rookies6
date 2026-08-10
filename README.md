@@ -62,3 +62,5 @@ tag#tag_id : id가 tag_id인 모든 tag <br />
 tag.tag_class : 클래스명에 tag_class가 포함된 모든 tag <br />
 tag#tag_id.tag_cls1.tag_cls2 : id가 tag_id이고 클래스명에 tag_cls1와 tag_cls2가 포함된 tag <br />
 tag.tag_tag_cls1.tag_cls2 : 클래스명에 tag_cls1와 tag_cls2가 포홤된 tag <br />
+
+###6일차 <br />
