@@ -76,3 +76,19 @@ tag.tag_tag_cls1.tag_cls2 : 클래스명에 tag_cls1와 tag_cls2가 포홤된 ta
 
 **9일차**<br />
 selenium의 경우 사이트 자체에서 막는 경우가 있어서 이미지 다운이 안될 수 있음<br />
+
+**10일차(파이썬 기초)**<br />
+list는 순서가 존재하며 바꿀 수 있음, -1은 마지막 값을 의미 <br />
+tuple은 바꿀 수 없는 값 b = (2)와 b = 2, () 또는 뒤에 ,를 붙여 튜플로 설정 가능 read only로 추가 변경 삭제 불가 <br />
+dict 키와값 쌍을 이루는 자료구조 print(book['title']) 키를 넣어 값을 꺼내기 book.get()를 통해 키가 없을 시 기본 값 반환, 값 추가 가능 <br />
+set은 중복 없음, 중복된 리스트를 set 한 이후 다시 list로 변환하면 중복된 값 제거 <br />
+def a(b=1) 변수에 기본 값을 준 상태로 정의 시 함수 사용할 때 변수 값을 주지 않아도 기본 값 사용 ex) 입력 : a() 출력 : 1 <br />
+함수 안에 함수를 넣어야 할 경우 코드가 난잡해 보이기에 lamda를 사용하면 함수 안에 코드 한 줄로 표현이 가능함 <br />
+try except error_code_1 as e는 오류 코드 e 반환 finally는 항상 실행 <br />
+.dump() 파이썬 > json, .load() json > 파이썬 변환 <br />
+os.path.join('a','b')는 a+b 문자열 사이에 /를 넣어 path로 저장 <br />
+.isna()는 결측치가 있는 값을 True 없으면 False로 반환 .isna().sum()은 True 결측치의 합 <br />
+groupby('a')['b'].mean()은 같은 a항목 별 b값 평균 계산을 처리함 <br />
+pd.to_datetime(a['debut'], dayfirst= True) debut 항목의 dd/mm/yy 형태를 문자열에서 인트형으로 나눠 저장 <br />
+dt.yeat , month , day로 추출 가능 <br />
+raise_for_status() 200이 아니면 예외 발생 <br />
