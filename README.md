@@ -92,3 +92,7 @@ groupby('a')['b'].mean()은 같은 a항목 별 b값 평균 계산을 처리함 <
 pd.to_datetime(a['debut'], dayfirst= True) debut 항목의 dd/mm/yy 형태를 문자열에서 인트형으로 나눠 저장 <br />
 dt.yeat , month , day로 추출 가능 <br />
 raise_for_status() 200이 아니면 예외 발생 <br />
+
+**11일차 ~ 15일차**<br />
+미니 프로젝트 1진행
+주제 : 정부 부동산 정책 전/후 서울 집값 비교 및 분석
