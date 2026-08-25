@@ -112,3 +112,5 @@ interface: 여러 클래스에 맞게 매서드 기능 구현 <br />
 <img width="1168" height="640" alt="image" src="https://github.com/user-attachments/assets/1ccf2111-ffa5-495b-8136-f9d0b73b1b81" />
 <img width="544" height="354" alt="image" src="https://github.com/user-attachments/assets/68a5eba1-7d8e-4506-b1ab-a241c13c7e47" />
 
+연관관계는 한 클래스의 객체가 다른 클래스의 객체를 맴버 변수로 가지는 경우 <br />
+의존관계는 한 클래스의 매서드에서 다른 클래스의 객체를 인자로 사용하는 경우 <br />
