@@ -1,4 +1,4 @@
-# Rookies6 TIL
+<img width="1132" height="631" alt="image" src="https://github.com/user-attachments/assets/4260a3bf-877d-4fb7-b015-2ecb92336465" /># Rookies6 TIL
 
 **사전학습 1주차-생성형 AI의 이해와 활용 1, 2** <br />
 생성형 AI를 통한 프로그래밍이 작업 효율을 높여 줄 수 있지만, 코드 수정시 이해가 부족하다는 단점이 있다.<br />
@@ -96,3 +96,21 @@ raise_for_status() 200이 아니면 예외 발생 <br />
 **11일차 ~ 15일차**<br />
 미니 프로젝트 1진행
 주제 : 정부 부동산 정책 전/후 서울 집값 비교 및 분석
+
+**16일차**<br />
+class는 name <br />
+variable(member) 변수, 속성<br />
+method(행위)로 구성됨<br />
+접근 제한자 : public protected default private <br />
+접근제한자는 클래스(public, default), 변수, 매서드에 작성 가능 <br />
+클래스만 두가지 접근제한자에 한하여 사용 <br />
+protected: 같은 package or 상속관계 <br />
+default: 같은 package <br />
+private: 같은 class <br />
+interface 매서드만 선언 구현 x <br />
+클래스 / 추상클래스 / 인터페이스 <br />
+abstract method(추상클래스): 선언만 함 자식 클래스에서 구현, 자식 클래스로 확장 시키는 역할 <br />
+interface: 여러 클래스에 맞게 매서드 기능 구현 <br />
+<img width="1168" height="640" alt="image" src="https://github.com/user-attachments/assets/1ccf2111-ffa5-495b-8136-f9d0b73b1b81" />
+<img width="544" height="354" alt="image" src="https://github.com/user-attachments/assets/68a5eba1-7d8e-4506-b1ab-a241c13c7e47" />
+
