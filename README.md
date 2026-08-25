@@ -1,5 +1,3 @@
-<img width="1132" height="631" alt="image" src="https://github.com/user-attachments/assets/4260a3bf-877d-4fb7-b015-2ecb92336465" /># Rookies6 TIL
-
 **사전학습 1주차-생성형 AI의 이해와 활용 1, 2** <br />
 생성형 AI를 통한 프로그래밍이 작업 효율을 높여 줄 수 있지만, 코드 수정시 이해가 부족하다는 단점이 있다.<br />
 NotebookLM을 이용하여 동영상 요약하거나 퀴즈를 만들어 공부하는데 이용할 수 있다.<br />
