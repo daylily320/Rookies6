@@ -119,3 +119,8 @@ interface: 여러 클래스에 맞게 매서드 기능 구현 <br />
 static이 아닌 건 static에서 사용 불가능 하기 때문에 객체를 생성해서 사용해야 함 <br />
 linkedlist가 arraylist보다 빠름  <br />
 List list = new ArrayList; 선언 시 수정에 리스트 종류 변경 시에 ArrayList만 변경하면 되서 수정에 용이하고, 리스트 변경에 따른 호출 불가능한 매서드 미연에 방지 <br />
+
+**18일차** <br />
+트랜잭션은 작업 도중 오류가 생기면 변경 전으로 상태를 돌려놓는다<br />
+scope defualt type은 singleton인데 이는 어플리케이션 실행 시 생성되는 하나의 인스턴스를 사용하지만, prototype은 bean을 받아올 때마다 새로 인스턴스를 생성한다. <br />
+상태 정보를 객체마다 저장해야 한다면 prototype을 사용해야 함 <br />
