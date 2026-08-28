@@ -124,3 +124,7 @@ List list = new ArrayList; 선언 시 수정에 리스트 종류 변경 시에 A
 트랜잭션은 작업 도중 오류가 생기면 변경 전으로 상태를 돌려놓는다<br />
 scope defualt type은 singleton인데 이는 어플리케이션 실행 시 생성되는 하나의 인스턴스를 사용하지만, prototype은 bean을 받아올 때마다 새로 인스턴스를 생성한다. <br />
 상태 정보를 객체마다 저장해야 한다면 prototype을 사용해야 함 <br />
+
+**19일차** <br />
+anotation componet를 읽기 위해서 xml 파일에서 component scan을 작성해야 읽을 수 있음 <br />  
+component는 클래스 위에 선언, bean은 매서드 위에 선언하여 SpringBean을 등록함 <br /> 
