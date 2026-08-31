@@ -128,3 +128,9 @@ scope defualt type은 singleton인데 이는 어플리케이션 실행 시 생�
 **19일차** <br />
 anotation componet를 읽기 위해서 xml 파일에서 component scan을 작성해야 읽을 수 있음 <br />  
 component는 클래스 위에 선언, bean은 매서드 위에 선언하여 SpringBean을 등록함 <br /> 
+
+**20일차** <br />
+함수형 인터페이스에서 추상매서드가 여러개라 한다면 람다 표현식에서 매서드 명을 생략하기 때문에 어떤 매서드를 사용하는지 확인하기 어렵다. <br />
+따라서 함수형 인터페이스에서는 추상 매서드는 한 개만 존재한다.<br />
+${myboot.name}의 형태는 철자가 틀리거나 공백문자을 허용하지 않기 때문에 에러를 방지하기 위해서 properties에 Getter, Setter를 추가하여 getName을 통해 받아온다 <br />
+프로파일은 테스트환경과 실제서버환경을 분리하는 방법으로 프로파일로 받은 id에 해당하는 환경id를 실행시킨다. <br />
