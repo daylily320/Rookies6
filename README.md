@@ -134,3 +134,7 @@ component는 클래스 위에 선언, bean은 매서드 위에 선언하여 Spri
 따라서 함수형 인터페이스에서는 추상 매서드는 한 개만 존재한다.<br />
 ${myboot.name}의 형태는 철자가 틀리거나 공백문자을 허용하지 않기 때문에 에러를 방지하기 위해서 properties에 Getter, Setter를 추가하여 getName을 통해 받아온다 <br />
 프로파일은 테스트환경과 실제서버환경을 분리하는 방법으로 프로파일로 받은 id에 해당하는 환경id를 실행시킨다. <br />
+
+**21일차** <br />
+create, create-drop, udate는 기존 스키마를 삭제하기에 테스트 환경에서만 사용 <br />
+optional 단일, list 복수 가능 <br />
