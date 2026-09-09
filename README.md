@@ -156,3 +156,10 @@ optional 단일, list 복수 가능 <br />
 span은 줄 바꿈을 하지 않지만, div는 한 div마다 줄 바꿈을 함 <br />
 dd는 들여쓰기 된 상태로 글이 적힘 <br />
 content-box는 여백 포함x, border-box는 여백 까지 포함한 크기 <br />
+
+**27일차** <br />
+var는 if문 안에서 선언하더라도 if문이 끝나도 초기화 되지 않음 let을 이용해야 if문 종료와 초기화가 진행됨 <br />
+||은 왼쪽이 0, "", null, undefined이면 오른쪽을 반환하지만, ??은 null, undefined에만 오른쪽 반환 <br />
+?은 중간에 값이 없으면 undefined 반환 <br />
+객체 > 문자열 (보낼 때) stringify <br />
+문자열 > 객체 (받을 때) parse
