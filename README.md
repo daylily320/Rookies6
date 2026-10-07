@@ -162,4 +162,8 @@ var는 if문 안에서 선언하더라도 if문이 끝나도 초기화 되지 �
 ||은 왼쪽이 0, "", null, undefined이면 오른쪽을 반환하지만, ??은 null, undefined에만 오른쪽 반환 <br />
 ?은 중간에 값이 없으면 undefined 반환 <br />
 객체 > 문자열 (보낼 때) stringify <br />
-문자열 > 객체 (받을 때) parse
+문자열 > 객체 (받을 때) parse <br />
+
+**43일차** <br />
+LCEL: 프롬포트 + 모델 + 출력파서 <br />
+FewShot 예시를 줌 <br />
