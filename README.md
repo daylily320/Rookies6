@@ -167,10 +167,14 @@ var는 if문 안에서 선언하더라도 if문이 끝나도 초기화 되지 �
 **43일차** <br />
 LCEL: 프롬포트 + 모델 + 출력파서 <br />
 Temperature 설정은 0일수록 기계적 높을수록 창의적인 대답을 함 <br />
+RAG: 외부 문서를 검색해 답변함 <br />
+system : 규칙, 역할 <br />
+user : 질문 <br />
+assistant : 이전 모델의 답  <br />
+multichain : 이전 답을 변수로 주어서 이전 답을 기억하도록 함 <br />
 
 **44일차** <br />
 zero-shot: 예시 없이 질문만 <br />
-one-shot: 하나의 예시 제시 <br />
 few-shot: 몇 개의 예시 제시 <br />
 bge-m3는 텍스트를 숫자 배열로 변경한다 <br />
 TOP P= X : 높은 확률만큼 더 해서 X확률이 될 때까지의 후보 중에 고른다 <br />
